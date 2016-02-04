@@ -1,0 +1,36 @@
+{
+  "testId" : "1-galenbasictest.mobilelayouttests-testgalensite",
+  "name" : "GalenBasicTest.MobileLayoutTests#TestGalenSite",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout Specs//ImageCompSpec.spec",
+      "status" : "error",
+      "time" : 1454526198999,
+      "includedTags" : [ "desktop" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Test out the image comparison results of Login button",
+        "objects" : [ {
+          "name" : "LoginButton",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "Specs//ImageCompSpec.spec",
+              "lineNumber" : 11
+            },
+            "name" : "image file Specs/images/dummy.jpg, error 1 px",
+            "errors" : [ "Couldn't load image: Specs\\Specs/images/dummy.jpg" ],
+            "highlight" : [ "LoginButton" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "LoginButton" : {
+          "area" : [ 275, 391, 78, 46 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "tests" : [ {
+    "name" : "GalenBasicTest.MultipleResolutionTests#TestGalenSite",
+    "startedAt" : 1454560252780,
+    "endedAt" : 1454560252780,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 0,
+      "errors" : 2,
+      "warnings" : 0,
+      "total" : 2
+    },
+    "testId" : "1-galenbasictest.multipleresolutiontests-testgalensite",
+    "duration" : 0,
+    "failed" : true
+  } ]
+}

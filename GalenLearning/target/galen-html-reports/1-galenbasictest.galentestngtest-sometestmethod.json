@@ -1,0 +1,87 @@
+{
+  "testId" : "1-galenbasictest.galentestngtest-sometestmethod",
+  "name" : "GalenBasicTest.GalenTestNgTest#someTestMethod",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout Specs//ToolsqaHomePage.spec",
+      "status" : "info",
+      "time" : 1454299430574,
+      "includedTags" : [ "desktop" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Layout of Login button with absolute dimensions",
+        "objects" : [ {
+          "name" : "LoginButton",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "Specs//ToolsqaHomePage.spec",
+              "lineNumber" : 10
+            },
+            "name" : "width = 78 px",
+            "highlight" : [ "LoginButton" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "Specs//ToolsqaHomePage.spec",
+              "lineNumber" : 11
+            },
+            "name" : "height = 46 px",
+            "highlight" : [ "LoginButton" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Layout of Login button with dimension ranges",
+        "objects" : [ {
+          "name" : "LoginButton",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "Specs//ToolsqaHomePage.spec",
+              "lineNumber" : 16
+            },
+            "name" : "width 77 to 79 px",
+            "highlight" : [ "LoginButton" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "Specs//ToolsqaHomePage.spec",
+              "lineNumber" : 17
+            },
+            "name" : "height 45 to 47 px",
+            "highlight" : [ "LoginButton" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Layout of Login button with approximation",
+        "objects" : [ {
+          "name" : "LoginButton",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "Specs//ToolsqaHomePage.spec",
+              "lineNumber" : 23
+            },
+            "name" : "width ~ 76 px",
+            "highlight" : [ "LoginButton" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "Specs//ToolsqaHomePage.spec",
+              "lineNumber" : 24
+            },
+            "name" : "height ~ 44 px",
+            "highlight" : [ "LoginButton" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "LoginButton" : {
+          "area" : [ 97, 391, 78, 46 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

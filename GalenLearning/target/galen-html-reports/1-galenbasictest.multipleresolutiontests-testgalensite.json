@@ -1,0 +1,45 @@
+{
+  "testId" : "1-galenbasictest.multipleresolutiontests-testgalensite",
+  "name" : "GalenBasicTest.MultipleResolutionTests#TestGalenSite",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout Specs//MultipleResolution.spec",
+      "status" : "error",
+      "time" : 1454560274822,
+      "includedTags" : [ "desktop 1280 X 720" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Test out the image comparison results of Login button",
+        "objects" : [ {
+          "name" : "LoginButton",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "Specs//MultipleResolution.spec",
+              "lineNumber" : 16
+            },
+            "name" : "width ~ 70 px",
+            "errors" : [ "\"LoginButton\" width is 78px which is not in range of 68 to 72px" ],
+            "highlight" : [ "LoginButton" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "Specs//MultipleResolution.spec",
+              "lineNumber" : 17
+            },
+            "name" : "height ~ 40 px",
+            "errors" : [ "\"LoginButton\" height is 46px which is not in range of 38 to 42px" ],
+            "highlight" : [ "LoginButton" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "LoginButton" : {
+          "area" : [ 97, 391, 78, 46 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

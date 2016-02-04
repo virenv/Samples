@@ -1,0 +1,119 @@
+{
+  "testId" : "2-galenbasictest.mobilelayouttests-testgalensite",
+  "name" : "GalenBasicTest.MobileLayoutTests#TestGalenSite",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout Specs//ToolsqaHomePage.spec",
+      "status" : "info",
+      "time" : 1454524831355,
+      "includedTags" : [ "desktop" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Login button tests",
+        "objects" : [ ],
+        "sections" : [ {
+          "name" : "Layout of Login button with absolute dimensions",
+          "objects" : [ {
+            "name" : "LoginButton",
+            "specs" : [ {
+              "status" : "info",
+              "place" : {
+                "filePath" : "Specs//ToolsqaHomePage.spec",
+                "lineNumber" : 13
+              },
+              "name" : "width ~ 78 px",
+              "highlight" : [ "LoginButton" ]
+            }, {
+              "status" : "info",
+              "place" : {
+                "filePath" : "Specs//ToolsqaHomePage.spec",
+                "lineNumber" : 14
+              },
+              "name" : "height ~ 46 px",
+              "highlight" : [ "LoginButton" ]
+            } ]
+          } ]
+        }, {
+          "name" : "Layout of Login button with dimension ranges",
+          "objects" : [ {
+            "name" : "LoginButton",
+            "specs" : [ {
+              "status" : "info",
+              "place" : {
+                "filePath" : "Specs//ToolsqaHomePage.spec",
+                "lineNumber" : 24
+              },
+              "name" : "width 77 to 79 px",
+              "highlight" : [ "LoginButton" ]
+            }, {
+              "status" : "info",
+              "place" : {
+                "filePath" : "Specs//ToolsqaHomePage.spec",
+                "lineNumber" : 25
+              },
+              "name" : "height 45 to 47 px",
+              "highlight" : [ "LoginButton" ]
+            } ]
+          } ]
+        }, {
+          "name" : "Layout of Login button with approximation",
+          "objects" : [ {
+            "name" : "LoginButton",
+            "specs" : [ {
+              "status" : "info",
+              "place" : {
+                "filePath" : "Specs//ToolsqaHomePage.spec",
+                "lineNumber" : 36
+              },
+              "name" : "width ~ 76 px",
+              "highlight" : [ "LoginButton" ]
+            }, {
+              "status" : "info",
+              "place" : {
+                "filePath" : "Specs//ToolsqaHomePage.spec",
+                "lineNumber" : 37
+              },
+              "name" : "height ~ 44 px",
+              "highlight" : [ "LoginButton" ]
+            } ]
+          } ]
+        }, {
+          "name" : "Checking the existence of layout button below or above some",
+          "objects" : [ {
+            "name" : "LoginButton",
+            "specs" : [ {
+              "status" : "info",
+              "place" : {
+                "filePath" : "Specs//ToolsqaHomePage.spec",
+                "lineNumber" : 43
+              },
+              "name" : "below LoginInfoPara ~ 16 px",
+              "highlight" : [ "LoginButton", "LoginInfoPara" ]
+            }, {
+              "status" : "info",
+              "place" : {
+                "filePath" : "Specs//ToolsqaHomePage.spec",
+                "lineNumber" : 44
+              },
+              "name" : "inside MainDivTestPage ~ 752 px right, ~ 63 px bottom",
+              "highlight" : [ "LoginButton", "MainDivTestPage" ]
+            } ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "MainDivTestPage" : {
+          "area" : [ 67, 154, 860, 346 ]
+        },
+        "LoginInfoPara" : {
+          "area" : [ 97, 346, 800, 30 ]
+        },
+        "LoginButton" : {
+          "area" : [ 97, 391, 78, 46 ]
+        }
+      },
+      "screenshot" : "layout-2-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

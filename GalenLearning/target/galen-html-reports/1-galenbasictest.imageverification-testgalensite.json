@@ -1,0 +1,35 @@
+{
+  "testId" : "1-galenbasictest.imageverification-testgalensite",
+  "name" : "GalenBasicTest.ImageVerification#TestGalenSite",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout Specs//ImageCompSpec.spec",
+      "status" : "info",
+      "time" : 1454526898749,
+      "includedTags" : [ "desktop" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Test out the image comparison results of Login button",
+        "objects" : [ {
+          "name" : "LoginButton",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "Specs//ImageCompSpec.spec",
+              "lineNumber" : 11
+            },
+            "name" : "image file images/ModifiedButtonImage.png, error 1%",
+            "highlight" : [ "LoginButton" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "LoginButton" : {
+          "area" : [ 97, 391, 78, 46 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "testId" : "2-galenbasictest.galentestngtest-testhighchartsample",
+  "name" : "GalenBasicTest.GalenTestNgTest#testHighChartSample",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout Specs//HighchartSample.spec",
+      "status" : "error",
+      "time" : 1454527583955,
+      "includedTags" : [ "desktop" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Testing dimensions of High chart object",
+        "objects" : [ {
+          "name" : "HighChartUiObject",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "Specs//HighchartSample.spec",
+              "lineNumber" : 13
+            },
+            "name" : "height ~ 400 px",
+            "highlight" : [ "HighChartUiObject" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "Specs//HighchartSample.spec",
+              "lineNumber" : 14
+            },
+            "name" : "width ~ 600 px",
+            "highlight" : [ "HighChartUiObject" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "Specs//HighchartSample.spec",
+              "lineNumber" : 15
+            },
+            "name" : "near SeeCodeButton ~ 213px right",
+            "highlight" : [ "HighChartUiObject", "SeeCodeButton" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "Specs//HighchartSample.spec",
+              "lineNumber" : 16
+            },
+            "name" : "near SeeUsGitButton ~ 203px bottom",
+            "highlight" : [ "HighChartUiObject", "SeeUsGitButton" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "Specs//HighchartSample.spec",
+              "lineNumber" : 17
+            },
+            "name" : "near FullDocumentationButton ~ 180 px right, ~ 241 px bottom",
+            "highlight" : [ "HighChartUiObject", "FullDocumentationButton" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Testing the top of the page",
+        "objects" : [ {
+          "name" : "TopIntroductionDiv",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "Specs//HighchartSample.spec",
+              "lineNumber" : 27
+            },
+            "name" : "height ~ 248 px",
+            "highlight" : [ "TopIntroductionDiv" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "Specs//HighchartSample.spec",
+              "lineNumber" : 28
+            },
+            "name" : "width ~  941 px",
+            "highlight" : [ "TopIntroductionDiv" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "Specs//HighchartSample.spec",
+              "lineNumber" : 29
+            },
+            "name" : "inside screen ~ 59 px top, 25 to 38 px left",
+            "errors" : [ "\"TopIntroductionDiv\" is 0px left which is not in range of 25 to 38px" ],
+            "highlight" : [ "TopIntroductionDiv", "screen" ]
+          } ]
+        }, {
+          "name" : "HighChartUiObject",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "Specs//HighchartSample.spec",
+              "lineNumber" : 32
+            },
+            "name" : "image file images/HighChartImage.png, error 1%",
+            "errors" : [ "Element does not look like \"Specs\\images/HighChartImage.png\". There are 14.69% mismatching pixels but max allowed is 1%" ],
+            "highlight" : [ "HighChartUiObject" ],
+            "imageComparison" : {
+              "actualImage" : "layout-3-HighChartUiObject-actual.png",
+              "expectedImage" : "layout-4-HighChartUiObject-expected.png",
+              "comparisonMapImage" : "layout-5-HighChartUiObject-map.png"
+            }
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "SeeCodeButton" : {
+          "area" : [ 0, 1221, 107, 29 ]
+        },
+        "TopIntroductionDiv" : {
+          "area" : [ 0, 60, 940, 248 ]
+        },
+        "HighChartUiObject" : {
+          "area" : [ 320, 964, 600, 400 ]
+        },
+        "FullDocumentationButton" : {
+          "area" : [ 0, 694, 140, 29 ]
+        },
+        "screen" : {
+          "area" : [ 0, 0, 940, 8082 ]
+        },
+        "SeeUsGitButton" : {
+          "area" : [ 640, 732, 131, 29 ]
+        }
+      },
+      "screenshot" : "layout-2-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}
